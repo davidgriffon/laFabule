@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex: 1 1 0%;
+    align-items: center;
+}
+
+.navbar > div {
+    background: pink;
+    width: 100%;
+    margin: 1em;
+}
+
+.navbar .center {
+    text-align: center;
+}
+
+.navbar .right {
+    text-align: right;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    padding-top: 30px;
+}

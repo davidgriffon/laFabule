@@ -1,0 +1,208 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.nav-link, .navbar-brand {
+    color: #595959;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #fe9882;
+    border-color: #fe9882;
+}
+
+a, a:hover {
+    color: #fe9882;
+}
+
+.shop {
+    color: #fe9882;
+}
+
+.logo {
+    height: 15em;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.top-bar {
+    width: 80px;
+}
+.top-bar-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+}
+
+.bg-dark {
+    background-color: #343a40 !important
+}
+
+.bg-primary {
+    background-color: #fe9882; !important
+}
+
+.description h1{
+    display: none;
+}
+
+#home .btn-light {
+    opacity: 75%;
+}
+.description p {
+    color:#666;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+.description button{
+    border:1px  solid #fe9882;;
+    background:#fe9882;;
+    color:#fff;
+}
+
+@media (min-width: 576px) {
+    .padding {
+        padding: 4em 2em 1em 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .padding {
+        padding: 6em 2em 1em 2em;
+    }
+}
+
+.hide-title {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    background: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.top-image {
+    width: 100%;
+}
+
+.padding-top {
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.padding-bottom {
+    padding-bottom: 1.5em;
+}
+
+.instagram-image {
+    width: 5em;
+}
+/*
+other theme*/
+
+
+/* general styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    min-width: 350px;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+/* additional sections */
+#home {
+    background: url(../images/home.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.evenement {
+    display: table;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.avril {
+    background: url(../images/evt1.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mai {
+    background: url(../images/mai.jpg) no-repeat center center fixed;
+}
+
+.evenement .card {
+    opacity: 0.85;
+}
+
+footer {
+    padding: 20px 0;
+}
+footer .glyphicon {
+    color: #333333;
+    font-size: 60px;
+}
+footer .glyphicon:hover {
+    color: #306d9f;
+}
